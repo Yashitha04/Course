@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enroll Now</title>
+    <style>
+        form {
+            margin: 50px auto;
+            width: 50%;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+        }
+    
+        label, input, select {
+            display: block;
+            margin-bottom: 10px;
+        }
+    
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <h1>Enroll in Our Online Course</h1>
+
+<h4>Our online course is the perfect way to learn from the comfort of your own home. With expert instructors and flexible scheduling, you can learn at your own pace and on your own schedule.</h4>
+
+<h4>To enroll in our course, simply fill out the form below with your name, email, phone number, and course selection. Once you submit the form, we will send you an email with further instructions on how to get started.</h4>
+
+	<form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+    
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br>
+    
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="html">Introduction to Relational Database and SQL</option>
+            <option value="css">Learn Java Script</option>
+            <option value="javascript">Python for Everybody</option>
+            <option value="html">Google UX Design</option>
+            <option value="css">Data Analysis in Python</option>
+            <option value="javascript">Build an Income Statement Dashboard in Power BI</option>
+            <option value="css">Mastering SQL Joins</option>
+            <option value="javascript">Data Analysis in R</option>
+        </select><br>
+    
+        <input type="submit" value="Enroll Now">
+    </form>
+    
+</body>
+</html>
